@@ -28,7 +28,7 @@ const NuevoPresupuesto = ({
     <div className="contenedor-presupuesto contenedor sombra">
         <form onSubmit={handlePresupuesto} className="formulario">
             <div className="campo">
-            <h1><span>Panificador de Gastos </span></h1>
+            <h1><span>Plan de Gastos </span></h1>
                 <label>Definir Presupuesto</label>
 
                 <input 

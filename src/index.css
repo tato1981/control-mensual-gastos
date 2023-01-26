@@ -159,12 +159,12 @@ header h1 {
 }
 .contenedor-presupuesto {
     margin-top: 5rem;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     transform: translateY(5rem);
+    background-color: rgb(228, 246, 215);
+    box-shadow: 1rem 1.3rem #d6d1d1;
 }
 .dos-columnas {
     flex-direction: column;
@@ -189,6 +189,8 @@ header h1 {
 .formulario input[type="number"].nuevo-presupuesto {
     font-size: 2.1rem;
     text-align: center;
+    background-color: #e4eaf2;
+    
 }
 
 .contenedor-presupuesto svg {
@@ -262,7 +264,7 @@ main {
     margin-top: 5rem;
 }
 .listado-gastos h2 {
-    color: var(--negro);
+    color: hsl(20, 16%, 4%);
     font-weight: 900;
     
 }

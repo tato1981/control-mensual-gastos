@@ -74,7 +74,7 @@ const ControlPresupuesto = ({
           </div>
           
            <div className='contenido-presupuesto'>            
-           <h3><span>Panificador de Gastos </span></h3>
+           
                 <button
                     className='reset-app'
                     type='button'
